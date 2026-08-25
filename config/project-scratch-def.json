@@ -1,0 +1,19 @@
+{
+  "orgName": "Kung Fu Academy Dev",
+  "edition": "Developer",
+  "features": ["Communities", "ServiceCloud", "AuthorApex", "DebugApex","EnableSetPasswordInApi"],
+  "settings": {
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
