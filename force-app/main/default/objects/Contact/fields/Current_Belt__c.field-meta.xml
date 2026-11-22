@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Belt__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Derived from the most recent Graduation__c record. Never edit manually.</description>
+    <label>Current Belt</label>
+    <referenceTo>Belt__c</referenceTo>
+    <relationshipLabel>Contacts</relationshipLabel>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>
